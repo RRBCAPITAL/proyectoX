@@ -4,44 +4,45 @@ const ActivarAnuncio = () => {
   return (
     <div className="flex">
       <containerall className="flex flex-col items-center  gap-4 min-h-screen w-screen py-[100px] dark:bg-dark-d bg-whitet">
-        <div className="flex gap-1 items-center justify-center">
+        <div className="flex flex-col gap-0 items-center justify-center">
           {/* <h1 className="my-auto text-red-600 font-bold bg-red-100 p-2 rounded-[20px]">DESCUENTOS por lanzamiento</h1> */}
-          <h1 className="text-center text-t-red text-2xl sm:text-3xl font-bold">
-            Suscribete
+          <h1 className="text-center text-t-red text-3xl lg:text-4xl sm:text-3xl font-bold mx-4">
+            Los mejores planes de suscripción
           </h1>
+          <h2 className="text-sm lg:text-[16px] text-slate-300 mx-auto text-center mt-2 lg:mt-1 px-4">El contenido premium de más alta calidad para adultos +18 espera por ti</h2>
           {/* <h2 className='text-xl text-red-500 font-bold'>Por lanzamiento: 70% de descuento en todos los planes!</h2> */}
         </div>
 
-        <containeniveles className="grid sm:grid-cols-2 lg:grid-cols-3 mx-2 lg:mx-10 items-center gap-2 lg:gap-4 justify-center">
+        <containeniveles className="grid sm:grid-cols-2 lg:grid-cols-3 mx-0 lg:mx-10 items-center gap-2 lg:gap-4 justify-center">
           
           <div className="flex flex-col gap-2 items-center justify-center">
-            <div className="text-white bg-slate-500 w-full text-center py-2 font-bold">
-              <h1>Plan Mensual</h1>
+            <div className="text-white bg-slate-600 w-full text-center py-2 px-20 lg:px-10 font-bold">
+              <h1 className='text-2xl'>Plan Mensual</h1>
             </div>
-            <div className="text-white bg-blue-500 font-bold text-2xl w-full text-center py-6">
+            <div className="text-white bg-blue-500 font-bold text-3xl w-full text-center py-6">
               <h1>S/100.00</h1>
             </div>
-            <button className="bg-red-500 px-4 text-white py-2 rounded-[10px] w-full text-center">Suscribete ahora</button>
+            <button className="bg-red-500 px-4 text-xl text-white py-2 rounded-[10px] w-full text-center">Suscríbete ahora</button>
           </div>
 
           <div className="flex flex-col gap-2 items-center justify-center">
-            <div className="text-white bg-slate-500 w-full text-center py-2 font-bold">
-              <h1>Plan Trimestral</h1>
+            <div className="text-white bg-slate-600 w-full text-center py-2 px-10 font-bold">
+              <h1 className='text-2xl'>Plan Trimestral</h1>
             </div>
-            <div className="text-white bg-blue-500 font-bold text-2xl w-full text-center py-6">
+            <div className="text-white bg-blue-500 font-bold text-3xl w-full text-center py-6">
               <h1>S/250.00</h1>
             </div>
-            <button className="bg-red-500 px-4 text-white py-2 rounded-[10px] w-full text-center">Suscribete ahora</button>
+            <button className="bg-red-500 px-4 text-xl text-white py-2 rounded-[10px] w-full text-center">Suscríbete ahora</button>
           </div>
 
           <div className="flex flex-col gap-2 items-center justify-center">
-            <div className="text-white bg-slate-500 w-full text-center py-2 font-bold">
-              <h1>Plan Semestral</h1>
+            <div className="text-white bg-slate-600 w-full text-center py-2 px-10 font-bold">
+              <h1 className='text-2xl'>Plan Semestral</h1>
             </div>
-            <div className="text-white bg-blue-500 font-bold text-2xl w-full text-center py-6">
-              <h1>S/350.00</h1>
+            <div className="text-white bg-blue-500 font-bold text-3xl w-full text-center py-6">
+              <h1>S/100.00</h1>
             </div>
-            <button className="bg-red-500 px-4 text-white py-2 rounded-[10px] w-full text-center">Suscribete ahora</button>
+            <button className="bg-red-500 px-4 text-xl text-white py-2 rounded-[10px] w-full text-center">Suscríbete ahora</button>
           </div>
 
           
@@ -154,7 +155,7 @@ const ActivarAnuncio = () => {
 
             <whatsapp className="w-full h-full flex flex-col justify-center items-center text-white dark:text-t-dark p-5 border-bor-light border-4 rounded-lg gap-2">
               <a
-                href={`https://api.whatsapp.com/send?phone=+51989752208&text=Hola%2C%20me%20interesa%20comprar%20un%20plan%20para%20mi%20anuncio%20en%20Papayahub.pe`}
+                href={`https://api.whatsapp.com/send?phone=+51989752208&text=Hola%2C%20me%20interesa%20suscribirme%20en%20ProyectoX.pe`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-10 py-[12px] font-bold text-xl bg-green-500 hover:bg-green-600 duration-200 transition-all ease-linear text-white rounded-lg w-fit"
@@ -170,8 +171,8 @@ const ActivarAnuncio = () => {
               </a>
               <div className="dark:text-white text-black text-center text-[16px] sm:text-base mx-10">
                 <h1 className="">
-                  Envíanos un WhatsApp indicando el nivel de suscripción, código
-                  ID, nombre y activaremos tu perfil.
+                Realizado el pago envíe una captura al WhatsApp 
+                para recibir su usuario y contraseña.
                 </h1>
               </div>
             </whatsapp>
