@@ -1,11 +1,4 @@
-"use client";
-
-import { useEffect, useState } from "react";
-import CardsVideos from "@/components/ContenidoVideos/CardsVideos";
-import Navbar from "@/components/NavBar/Navbar";
-import ModalLogin from "@/modals/ModalLogin";
-import { useThemeContext } from "@/context/theme";
-import CardsImagenes from "@/components/ContenidoImagenes/CardsImagenes";
+import Inicio from "@/pages/Inicio";
 
 export const metadata = {
   title: "Proyecto X - Kinesiólogas 🥰✅",
@@ -41,26 +34,11 @@ export const metadata = {
 };
 
 export default function Home() {
-  
-  const [access, setAccess] = useState(true);
-  const { modalLogin, setModalLogin, credencialsOk, setCredencialsOk} = useThemeContext();
 
   return (
     <>
       <main className="relative z-[900] dark:bg-black bg-white flex flex-col gap-2 items-center justify-center">
-      { modalLogin &&
-          <div className="z-[900] fixed lg:top-[60px] lg:right-[240px]">
-          <div className="">
-            <ModalLogin />
-          </div>
-        </div>
-        }
-      <CardsImagenes />
-        {access ? <>
-          
-          <CardsVideos />
-        </> : <div>NO ESTAS REGISTRADO</div>}
-        
+        <Inicio />
       </main>
     </>
   );
