@@ -6,14 +6,14 @@ import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import { useThemeContext } from "@/context/theme";
 
-const ModalLogin = () => {
+const ModalLoginMid = () => {
     const router = useRouter();
     const [credenciales, setCredenciales] = useState({
         user: '',
         password: ''
     });
     const [credencialStorage, setCredencialStorage] = useState()
-    const { credencialsOk, setCredencialsOk, modalLogin, setModalLogin, modalLoginM, setModalLoginM, show, setShow} = useThemeContext();
+    const { credencialsOk, setCredencialsOk, modalLogin, setModalLogin, modalLoginM, setModalLoginM, setModalLoginMid, setModalLoginMidM, show, setShow, setModalSuscripcion} = useThemeContext();
 
     const AccessOk = () => {
         const res = credencialsAccess.filter(c => c.user === credenciales.user && c.password === credenciales.password)
@@ -22,6 +22,8 @@ const ModalLogin = () => {
             if(res[0].status === true) {
                 setModalLogin(false);
                 setModalLoginM(false);
+                setModalLoginMid(false);
+                setModalLoginMidM(false);
                 setCredencialsOk(res);
             }
         }
@@ -80,10 +82,10 @@ const ModalLogin = () => {
     }} className="text-t-red text-[14px] sm:text-neutral">Suscríbete aquí</button></h2>
 
     <button className="absolute top-0 right-0 px-2 py-0 lg:py-1 text-white bg-red-500 rounded text-[18px] sm:text-neutral" onClick={() => {
-        setModalLogin(false);
-        setModalLoginM(false)
+        setModalLoginMidM(false);
+        setModalLoginMid(false);
     }}>X</button>
   </div>
 };
 
-export default ModalLogin;
+export default ModalLoginMid;

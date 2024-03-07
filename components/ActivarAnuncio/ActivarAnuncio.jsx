@@ -43,11 +43,7 @@ const ActivarAnuncio = () => {
               <h1>S/100.00</h1>
             </div>
             <button className="bg-red-500 px-4 text-xl text-white py-2 rounded-[10px] w-full text-center">Suscríbete ahora</button>
-          </div>
-
-          
-
-          
+          </div> 
         </containeniveles>
 
         <div className="mt-10">

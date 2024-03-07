@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import { changeIn } from "@/utils/motionTransitions";
 import { useRouter } from "next/navigation";
 import { FaCirclePlay } from "react-icons/fa6";
+import { useThemeContext } from "@/context/theme";
 
 const CardVideo = ({
   id,
@@ -15,10 +16,15 @@ const CardVideo = ({
   duration,
   nivel,
   views,
+  blocked,
+  access
 }) => {
   const [isHovered, setIsHovered] = useState(false);
   const [isClicked, setIsClicked] = useState(false);
-  const router = useRouter();
+  
+  const { setModalBlocked } = useThemeContext()
+
+  console.log(access);
 
   const toggleHover = () => {
     setIsHovered(!isHovered);
@@ -43,7 +49,7 @@ const CardVideo = ({
         exit="hidden"
         onContextMenu={handleContextMenu}
       >
-        <div
+        {access ? <div
           style={{
             position: "relative",
             overflow: "hidden",
@@ -86,32 +92,31 @@ const CardVideo = ({
               controlsList="nodownload"
             ></video>
           )}
-        </div>
-        {/* <div
-          className="flex flex-col gap-2 dark:text-white text-slate-500 px-1 lg:px-4 py-2 text-sm sm:text-[18px] font-bold leading-5 h-[80px] sm:h-[90px] overflow-hidden"
-          style={{
-            borderRadius: "0 0 18px 18px",
-            bottom: 0,
-            left: 0,
-            right: 0,
-          }}
-          onClick={() => router.push(`/videos/${name}/${id}`)}
-        >
-          <h1
-            style={{
-              overflow: "hidden",
-              textOverflow: "ellipsis",
-              display: "-webkit-box",
-              WebkitBoxOrient: "vertical",
-              WebkitLineClamp: 2,
-              whiteSpace: "normal",
-              marginBottom: "2px",
-            }}
-          >
-            {name}
-          </h1>
-          <h2 className="text-sm font-light">{views}k vistas</h2>
-        </div> */}
+        </div> : 
+        <div
+        style={{
+          position: "relative",
+          overflow: "hidden",
+        }}
+        className="w-full h-fit sm:h-[193.26px] lg:h-[247.3728px]"
+        onClick={() => setModalBlocked(true)}
+      >
+
+          <>
+            <img
+              src={thumbnailUrl}
+              alt="Miniatura del video"
+              className="relative w-full h-full object-cover cursor-pointer hover:opacity-80 duration-200 transition-all ease-linear"
+            />
+            <div className="absolute bottom-0 right-0 px-2 mx-4 my-2 py-1 bg-[#212121] text-white">
+              {duration}
+            </div>
+            <div className="absolute flex bottom-0 left-0 px-1 mx-[6px] my-1 py-1 rounded-[10px] text-white">
+            <img width="18" height="12" src="https://img.icons8.com/ios-filled/50/lock.png" alt="lock" className="bg-back-red py-1 px-0 h-6 w-[20px]"/>
+            <label htmlFor="" className="bg-black text-white py-[2px] px-2 text-[12px]">Premium</label>
+            </div>
+          </>
+      </div>}
       </motion.div>
     </div>
   );

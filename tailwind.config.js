@@ -43,7 +43,7 @@ module.exports = {
         'back-red': '#00b1ff',
         'back-orange': '#FFD493', 
         'back-red-l': '#643d00',
-        'back-redd': '#ff3d64',
+        'back-redd': '#ff3030',
         // 'back-red': '#ff3d64',
         // 'back-red-l': '#fff2f7',
         'dark-d': '#161616',

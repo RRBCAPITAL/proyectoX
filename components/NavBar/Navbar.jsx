@@ -31,13 +31,7 @@ const Navbar = () => {
 
     const pathname = usePathname()
     const [ changeNabvarF, setChangeNabvarF ] = useState(false)
-    const { modalLogin, setModalLogin, credencialsOk, setCredencialsOk, modalLoginM, setModalLoginM, show, setShow} = useThemeContext();
-
-    useEffect(() => {
-      if(modalLogin){
-        localStorage.setItem('activeModal', JSON.stringify(true))
-      }
-    }, [modalLogin])
+    const { modalLogin, setModalLogin, credencialsOk, setCredencialsOk, modalLoginM, setModalLoginM, show, setShow, setModalSuscripcion} = useThemeContext();
 
     changeNabvar(changeNabvarF)
 
@@ -145,7 +139,10 @@ const [isLoadingAnuncio, setIsLoadingAnuncio] = useState(false);
            </>   
            : <div className="flex gap-4 text-white">
             <button className="bg-back-red px-6 py-2 rounded-[10px]" onClick={() => setModalLogin(true)}>Acceder</button>
-            <Link href={'/metodos-de-pago'} className="bg-red-500 px-6 py-2 rounded-[10px]">Suscribirse</Link>
+            <button onClick={() => {
+              setModalSuscripcion(true);
+              setShow(false)
+            }} className="bg-back-redd px-6 py-2 rounded-[10px]">Suscribirse</button>
            </div>}
 
         {/* { theme === "dark" ?
@@ -182,7 +179,10 @@ const [isLoadingAnuncio, setIsLoadingAnuncio] = useState(false);
             <button className="bg-back-red px-4 py-1 text-[16px] rounded-[10px] w-full" onClick={() => {
               setModalLoginM(true);
             }}>Acceder a otra cuenta</button>
-            <Link href={'/metodos-de-pago'} onClick={() => setShow(false)} className="bg-red-500 px-4 py-1 rounded-[10px] text-[16px] w-full text-center">Suscribir otra cuenta</Link>
+            <button onClick={() => {
+              setModalSuscripcion(true);
+              setShow(false)
+            }} className="bg-back-redd px-4 py-1 rounded-[10px] text-[16px] w-full text-center">Suscribir otra cuenta</button>
            </div>
                 </>
                 : <><h1 className="text-[24px] font-bold px-4 text-[#2c2c2c] dark:text-white leading-4">Hola</h1>
@@ -191,7 +191,10 @@ const [isLoadingAnuncio, setIsLoadingAnuncio] = useState(false);
             <button className="bg-back-red px-4 py-1 text-[16px] rounded-[10px] w-full" onClick={() => {
               setModalLoginM(true);
             }}>Acceder</button>
-            <Link href={'/metodos-de-pago'} onClick={() => setShow(false)} className="bg-red-500 px-4 py-1 rounded-[10px] text-[16px] w-full text-center">Suscribirse</Link>
+            <button onClick={() => {
+              setModalSuscripcion(true);
+              setShow(false)
+            }} className="bg-back-redd px-4 py-1 rounded-[10px] text-[16px] w-full text-center">Suscribirse</button>
            </div>
           </>}
           {modalLoginM && <div className="mt-4">

@@ -11,7 +11,7 @@ import "react-toastify/dist/ReactToastify.css";
 
 import { dataVideos } from "@/Data/dataVideos";
 
-const CardsVideos = () => {
+const CardsVideos = ({access}) => {
   const [video, setVideo] = useState();
   const [filteredVideo, setFilteredVideo] = useState([]);
   const [updatedVideo, setUpdatedVideo] = useState(false);
@@ -53,6 +53,8 @@ const CardsVideos = () => {
                   thumbnailUrl={a?.thumbnailUrl}
                   duration={a?.duration}
                   views={a?.views}
+                  blocked={a?.blocked}
+                  access={access}
                 />
               ))
             : ""}
