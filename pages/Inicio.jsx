@@ -53,10 +53,8 @@ const Inicio = () => {
      </div>
       )}
       {modalSuscripcion && (
-         <div className="z-[900] fixed bg-[#0000005a] w-screen h-screen pt-[70px] lg:pt-0">
          <div className="relative">
              <ModalSuscripcion />
-         </div>
      </div>
       )}
       {modalMetodosPago && (
