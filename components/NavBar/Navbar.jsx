@@ -106,8 +106,8 @@ const [isLoadingAnuncio, setIsLoadingAnuncio] = useState(false);
           setShow(false)
           setChangeNabvarF(!changeNabvarF)
         }} className="font-extrabold">
-                {/* <img src="/assets/phlogo.jpeg" alt="" className="h-10 w-auto rounded-md shadow-sm"/> */}
-                <h1 className="text-t-red text-xl font-bold">PremiumXXX Web</h1>
+                <img src="/assets/logod.png" alt="" className="h-[56px] py-2 w-auto rounded-md shadow-sm"/>
+                {/* <h1 className="text-t-red text-xl font-bold">PremiumXXX Web</h1> */}
         </Link>
         </div>
         <div className="hidden lg:block dark:text-white text-slate-800">

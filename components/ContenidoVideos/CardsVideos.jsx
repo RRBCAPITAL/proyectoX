@@ -8,6 +8,7 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 // import Masonry from "react-masonry-css";
 // import "./stylecards.css";
+import styles from './CardsVideos.module.css'
 
 import { dataVideos } from "@/Data/dataVideos";
 
@@ -37,10 +38,10 @@ const CardsVideos = ({access}) => {
   };
 
   return (
-    <div className="flex flex-col lg:flex-row justify-center gap-4 w-screen min-h-screen lg:min-h-fit dark:bg-dark-l bg-[#fff]">
+    <div className="flex flex-col lg:flex-row justify-center gap-4 w-screen min-h-screen lg:min-h-fit dark:bg-black">
 
-      <containertotal className="flex overflow-x-hidden mt-2 lg:mt-10 mx-[12px]">
-        <contain className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 justify-center gap-1 lg:gap-[20px] min-h-fit mb-0 lg:mb-10 w-full">
+      <containertotal className="flex overflow-x-hidden mt-2 lg:mt-10 mb-8 mx-[12px]">
+        <contain className={styles.contain}>
           {video?.length > 0
             ? video.map((a) => (
                 <CardVideo

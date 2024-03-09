@@ -18,9 +18,8 @@ const ModalBlocked = () => {
   } = useThemeContext();
 
   return (
-    <div className="relative z-[1001] w-[92%] sm:w-[400px] lg:w-[300px] h-fit bg-black px-2 py-6 mx-auto shadow-2xl">
-      <h1 className="text-t-red text-2xl px-4 py-2 mt-4 font-bold">PremiumXXX Web
-</h1>
+    <div className="relative z-[1001] w-[300px] sm:w-[400px] lg:w-[300px] h-fit bg-black px-2 py-6 mx-auto shadow-2xl">
+      <img src="/assets/logod.png" alt="" className="px-4 py-2" />
 
       <div className="flex flex-col gap-2 items-center justify-center mt-4">
         <button
@@ -46,7 +45,7 @@ const ModalBlocked = () => {
       </div>
 
       <button
-        className="absolute top-0 right-0 px-2 py-0 lg:py-1 text-white bg-red-500 rounded text-[18px] sm:text-neutral"
+        className="absolute top-0 right-0 px-2 py-0 lg:py-1 text-white bg-back-redd rounded text-[18px] sm:text-neutral"
         onClick={() => {
           setModalBlocked(false);
         }}

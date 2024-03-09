@@ -17,7 +17,7 @@ const ModalLoginMid = () => {
 
     const AccessOk = () => {
         const res = credencialsAccess.filter(c => c.user === credenciales.user && c.password === credenciales.password)
-
+        console.log(res)
         if(res.length > 0){
             if(res[0].status === true) {
                 setModalLogin(false);
@@ -59,17 +59,17 @@ const ModalLoginMid = () => {
     }
   }, []);
 
-  return <div className="relative z-[1001] w-[92%] sm:w-[400px] lg:w-[300px] h-fit bg-black px-4 py-6 mx-2">
+  return <div className="relative z-[1001] w-[300px] sm:w-[500px] lg:w-[300px] h-fit bg-black px-6 py-6 mx-1 lg:mx-2">
     <div className="flex flex-col gap-2 leading-5">
-        <label htmlFor="" className="text-[16px] mb-1 sm:mb-0 text-white sm:text-neutral">Nombre de usuario</label>
-        <input className="py-1 rounded bg-white text-black px-1" type="text" name="user" value={credenciales.user} onChange={(e) => setCredenciales({
+        <label htmlFor="" className="text-[18px] mb-1 sm:mb-0 text-white sm:text-neutral">Nombre de usuario</label>
+        <input className="py-2 rounded bg-white text-black px-2" type="text" name="user" value={credenciales.user} onChange={(e) => setCredenciales({
             ...credenciales,
             user: e.target.value
         })}/>
     </div>
     <div className="flex flex-col gap-2 mt-4 leading-5">
-        <label htmlFor="" className="text-[16px] mb-1 sm:mb-0 text-white sm:text-neutral">Contraseña</label>
-        <input className="py-1 rounded bg-white text-black px-1" type="password" name="password" value={credenciales.password} onChange={(e) => setCredenciales({
+        <label htmlFor="" className="text-[18px] mb-1 sm:mb-0 text-white sm:text-neutral">Contraseña</label>
+        <input className="py-2 rounded bg-white text-black px-2" type="password" name="password" value={credenciales.password} onChange={(e) => setCredenciales({
             ...credenciales,
             password: e.target.value
         })}/>

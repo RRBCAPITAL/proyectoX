@@ -48,7 +48,7 @@ export default function CardsImagenes() {
             slidesPerView: 8, // Mostrar 5 imágenes por slide en pantallas de 1024px y superiores
           },
       }}
-        className="mySwiper w-[100%] lg:w-[98%] mt-16 lg:mt-20 px-0 mx-0 lg:px-20 lg:mx-10"
+        className="mySwiper w-[100%] lg:w-[98%] mt-16 lg:mt-[70px] px-0 mx-0 lg:px-20 lg:mx-10"
       >
         {anuncios.map(i => (
             <SwiperSlide>

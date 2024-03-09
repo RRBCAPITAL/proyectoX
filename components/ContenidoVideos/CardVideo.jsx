@@ -49,7 +49,9 @@ const CardVideo = ({
         exit="hidden"
         onContextMenu={handleContextMenu}
       >
-        {access ? <div
+        {access ? <>
+          <h2 className="text-white px-2 py-1">{description}</h2>
+          <div
           style={{
             position: "relative",
             overflow: "hidden",
@@ -60,7 +62,7 @@ const CardVideo = ({
             <>
               <img
                 src={thumbnailUrl}
-                // onClick={() => router.push(`/videos/${name}/${id}`)}
+                onClick={handleClick}
                 alt="Miniatura del video"
                 className="relative w-full h-full object-cover cursor-pointer"
               />
@@ -88,11 +90,14 @@ const CardVideo = ({
               muted
               playsInline
               src={videoUrl}
-              className="w-full h-full object-cover cursor-pointer rounded-[15px]"
+              className="w-full h-full object-cover cursor-pointer"
               controlsList="nodownload"
             ></video>
           )}
-        </div> : 
+        </div>
+        </> : 
+        <>
+        <h2 className="text-white px-2 py-1">{description}</h2>
         <div
         style={{
           position: "relative",
@@ -100,9 +105,7 @@ const CardVideo = ({
         }}
         className="w-full h-fit sm:h-[193.26px] lg:h-[247.3728px]"
         onClick={() => setModalBlocked(true)}
-      >
-
-          <>
+      >    
             <img
               src={thumbnailUrl}
               alt="Miniatura del video"
@@ -115,8 +118,9 @@ const CardVideo = ({
             <img width="18" height="12" src="https://img.icons8.com/ios-filled/50/lock.png" alt="lock" className="bg-back-red py-1 px-0 h-6 w-[20px]"/>
             <label htmlFor="" className="bg-black text-white py-[2px] px-2 text-[12px]">Premium</label>
             </div>
-          </>
-      </div>}
+      </div>
+      
+        </>}
       </motion.div>
     </div>
   );
