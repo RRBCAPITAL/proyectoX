@@ -1,7 +1,7 @@
 import Inicio from "@/pages/Inicio";
 
 export const metadata = {
-  title: "Proyecto X - Kinesiólogas 🥰✅",
+  title: "XDEBUTANTES.COM - DEBUTANTES XXX 🥰✅",
   description:
     "kinesiólogas reales en Lima, kinesiólogas reales en Trujillo, La Libertad, Chiclayo, Lambayeque, chicas caletas debutantes, anfitrionas, escorts peruanas, kines venezolanas y kinesiologas colombianas en el norte del Perú",
   icons: {

@@ -79,6 +79,8 @@ const ModalLoginMid = () => {
     <h2 className="mt-2 text-[14px] sm:text-neutral text-white">¿No tienes cuenta? <button onClick={() => {
         setShow(false);
         setModalSuscripcion(true);
+        setModalLoginMidM(false);
+        setModalLoginMid(false);
     }} className="text-t-red text-[14px] sm:text-neutral">Suscríbete aquí</button></h2>
 
     <button className="absolute top-0 right-0 px-2 py-0 lg:py-1 text-white bg-red-500 rounded text-[18px] sm:text-neutral" onClick={() => {

@@ -58,11 +58,9 @@ const Inicio = () => {
      </div>
       )}
       {modalMetodosPago && (
-         <div className="z-[900] fixed bg-[#0000005a] w-screen h-screen flex justify-center items-center">
          <div className="relative">
-             <ModalMetodosDePago />
-         </div>
-     </div>
+         <ModalMetodosDePago />
+ </div>
       )}
       <CardsImagenes />
       <CardsVideos access={access}/>
