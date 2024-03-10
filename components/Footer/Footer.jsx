@@ -13,7 +13,7 @@ const Footer = () => {
             <div className='footer-1'>
                 <Link href={'/'} className="flex flex-col gap-4 max-w-[260px]">
                     <h1 className="text-2xl font-extrabold"><strong className="">X</strong>Debutantes.com</h1>
-                    <h2>La plataforma de debutantes XXX</h2>
+                    <h2>Videos variados de casting de estudiantes y colegialas que inician en el porno siendo debutantes.</h2>
                 </Link>
             </div>  
 

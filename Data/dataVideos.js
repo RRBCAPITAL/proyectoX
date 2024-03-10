@@ -27,7 +27,7 @@ export const dataVideos = [
     },
     {
         id: 'A-0004',
-        description: 'Casting chamita P1',
+        description: 'Casting chamita - Parte 1',
         nivel: 'MOTOMAMI',
         videoUrl: 'https://firebasestorage.googleapis.com/v0/b/proyecto-x-33226.appspot.com/o/Casting%20Chamita%20P1.mp4?alt=media&token=6d71a487-3d18-4ebd-8f37-0c4124e89bc5',
         thumbnailUrl: '/assets/miniaturas/4.png',
