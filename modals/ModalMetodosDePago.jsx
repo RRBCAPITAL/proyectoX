@@ -11,7 +11,7 @@ const ModalMetodosDePago = () => {
   const { setModalMetodosPago } = useThemeContext();
 
   return (
-    <div className="z-[900] fixed bg-[#0000005a] w-screen h-screen flex items-center justify-center lg:pt-0" style={{'paddingTop': '70px'}}>
+    <div className="z-[900] fixed bg-[#00000080] w-screen h-screen flex items-center justify-center lg:pt-0" style={{'paddingTop': '70px'}}>
     <div className="relative z-[1001] w-[70%] sm:w-[400px] lg:w-[60vw] h-[80vh] lg:h-fit overflow-y-auto bg-black px-4 lg:px-10 py-6 mx-1 shadow-2xl flex flex-col items-center justify-center">
       <h1 className="titulo text-center mx-auto text-white text-xl font-bold  px-2 py-1 rounded-[10px]">
         Métodos de pago

@@ -9,11 +9,11 @@ const Footer = () => {
   return (
     <div className={quick.className}>
         <footer className='flex flex-col items-center justify-center text-white bg-blue-500 pt-[2rem] lg:pt-[5rem] text-[1rem]'>
-        <div className='grid sm:grid-cols-4 mx-10 lg:mx-12 gap-10 sm:gap-40'>
+        <div className='grid sm:grid-cols-4 mx-10 lg:mx-24 gap-10 sm:gap-40'>
             <div className='footer-1'>
                 <Link href={'/'} className="flex flex-col gap-4 max-w-[260px]">
-                    <h1 className="text-2xl font-extrabold"><strong className="text-red-500">X</strong> Debutantes.com</h1>
-                    <h2>DESCRIPCION DE LA WEB</h2>
+                    <h1 className="text-2xl font-extrabold"><strong className="">X</strong>Debutantes.com</h1>
+                    <h2>La plataforma de debutantes XXX</h2>
                 </Link>
             </div>  
 
@@ -33,7 +33,7 @@ const Footer = () => {
                 <h4 className="text-xl font-extrabold">Primacy</h4>
                 <ul className="flex flex-col gap-4">
                     {/* <li><Link href={'/'}>Política de privacidad</Link></li> */}
-                    <li><Link target="_blank" href={'https://drive.google.com/file/d/1H1T-qnLR4bL4JWBkqTff3pnf8qfCqUA_/view'}>Términos y condiciones</Link></li>
+                    <li>Términos y condiciones</li>
                     {/* <li><Link href={'/faqs'}>Política de reembolso</Link></li> */}
                 </ul>
             </div>
@@ -56,10 +56,10 @@ const Footer = () => {
 
                 <h4 className="text-xl font-extrabold">Redes sociales</h4>
                 <ul className="socials flex gap-2">
-                    <li><Link target="_blank" href={'https://www.instagram.com/'} className="flex gap-1">
+                    {/* <li><Link target="_blank" href={'https://www.instagram.com/'} className="flex gap-1">
                         <h1>IG</h1>
-                        <SiInstagram className="my-auto"/></Link></li>
-                    <li><Link target="_blank" href={'https://t.me/+kRPGKNx2eNZlNmQ5'} className="flex gap-1">
+                        <SiInstagram className="my-auto"/></Link></li> */}
+                    <li><Link target="_blank" href={'https://t.me/starmaxhub'} className="flex gap-1">
                         <h1>Telegram</h1>
                         <SiTelegram className="my-auto"/></Link></li>
                     {/* <li><Link target="_blank" href={'https://www.tiktok.com/@papayahub_pe'} className="flex gap-1">
@@ -70,7 +70,7 @@ const Footer = () => {
   
         </div>
         <div className="text-center mt-[4rem] py-[0.8rem] mx-auto border-t border-slate-500 w-screen">
-                <small>Copyright &copy; X DEBUTANTES.COM 2024</small>
+                <small>Copyright &copy; XDebutantes 2024</small>
         </div>
         
     </footer>

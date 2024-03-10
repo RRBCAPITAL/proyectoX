@@ -52,7 +52,7 @@ export default function CardsImagenes() {
       >
         {anuncios.map(i => (
             <SwiperSlide>
-                <img src={i.imagenPrincipal} alt={i.name} className='shadow-lg'/>
+                <img src={i.imagenPrincipal} alt={i.name} className='shadow-lg' onContextMenu={(e) => e.preventDefault()}/>
             </SwiperSlide>
         ))}
       </Swiper>}

@@ -4,64 +4,28 @@ export default function sitemap() {
 
     return [
       {
-        url: 'https://papayahub.pe',
+        url: 'https://xdebutantes.com',
         lastModified: currentDate,
-        changeFrequency: 'weekly',
+        changeFrequency: 'dayli',
         priority: 1,
       },
       {
-        url: 'https://www.papayahub.pe',
+        url: 'https://www.xdebutantes.com',
+        lastModified: currentDate,
+        changeFrequency: 'dayli',
+        priority: 0.8,
+      },
+      {
+        url: 'http://xdebutantes.com',
         lastModified: currentDate,
         changeFrequency: 'weekly',
-        priority: 1,
-      },
-      {
-        url: 'https://papayahub.pe/inicio',
-        lastModified: currentDate,
-        changeFrequency: 'weekly',
-        priority: 0.7,
-      },
-      {
-        url: 'https://www.papayahub.pe/inicio',
-        lastModified: currentDate,
-        changeFrequency: 'weekly',
-        priority: 0.7,
-      },
-      {
-        url: 'https://papayahub.pe/activar-anuncio',
-        lastModified: currentDate,
-        changeFrequency: 'monthly',
-        priority: 0.5,
-      },
-      {
-        url: 'https://www.papayahub.pe/activar-anuncio',
-        lastModified: currentDate,
-        changeFrequency: 'monthly',
-        priority: 0.5,
-      },
-      {
-        url: 'https://papayahub.pe/sign-in',
-        lastModified: currentDate,
-        changeFrequency: 'monthly',
-        priority: 0.4,
-      },
-      {
-        url: 'https://www.papayahub.pe/sign-in',
-        lastModified: currentDate,
-        changeFrequency: 'monthly',
-        priority: 0.4,
-      },
-      {
-        url: 'https://papayahub.pe/sign-up',
-        lastModified: currentDate,
-        changeFrequency: 'monthly',
         priority: 0.3,
       },
       {
-        url: 'https://www.papayahub.pe/sign-up',
+        url: 'http://www.xdebutantes.com',
         lastModified: currentDate,
-        changeFrequency: 'monthly',
+        changeFrequency: 'weekly',
         priority: 0.3,
-      }
+      },
     ]
   }

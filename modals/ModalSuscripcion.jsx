@@ -14,7 +14,7 @@ const ModalSuscripcion = () => {
   const [solesDolares, setSolesDolares] = useState(false)
 
   return (
-    <div className="z-[900] fixed bg-[#0000005a] w-screen h-screen flex items-center justify-center lg:pt-0" style={{'paddingTop': '70px'}}>
+    <div className="z-[900] fixed bg-[#00000080] w-screen h-screen flex items-center justify-center lg:pt-0" style={{'paddingTop': '70px'}}>
       <div className="relative z-[1001] w-[70%] sm:w-[400px] lg:w-[60vw] h-[80vh] lg:h-fit overflow-y-auto bg-black px-6 py-6 mx-4 shadow-2xl flex flex-col items-center justify-center">
       <img src="/assets/logod.png" alt="" className="px-0 w-[90%] h-[90%] lg:w-[250px] lg:h-fit pt-2 mx-auto"/>
       <div className="rounded-[10px] p-1 bg-back-red mx-auto w-[270px] flex items-center justify-center mt-2 mb-2">

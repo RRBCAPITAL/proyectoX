@@ -6,7 +6,7 @@ export const dataVideos = [
         nivel: 'MOTOMAMI',
         videoUrl: 'https://firebasestorage.googleapis.com/v0/b/proyecto-x-33226.appspot.com/o/Casero%20Hotel.mp4?alt=media&token=93597cf8-bd85-4668-b532-fdcf1ed954c9',
         thumbnailUrl: '/assets/miniaturas/1.png',
-        duration: '43:27',
+        duration: '20:14',
     },
         {
         id: 'A-0002',
@@ -14,7 +14,7 @@ export const dataVideos = [
         nivel: 'MOTOMAMI',
         videoUrl: 'https://firebasestorage.googleapis.com/v0/b/proyecto-x-33269.appspot.com/o/Amateur%20en%20la%20Selva.mp4?alt=media&token=99c85834-5ae9-4f89-bb4b-649ae26e3211',
         thumbnailUrl: '/assets/miniaturas/2.png',
-        duration: '19:16',
+        duration: '16:08',
 
     },
     {
@@ -31,7 +31,7 @@ export const dataVideos = [
         nivel: 'MOTOMAMI',
         videoUrl: 'https://firebasestorage.googleapis.com/v0/b/proyecto-x-33226.appspot.com/o/Casting%20Chamita%20P1.mp4?alt=media&token=6d71a487-3d18-4ebd-8f37-0c4124e89bc5',
         thumbnailUrl: '/assets/miniaturas/4.png',
-        duration: '16:47',
+        duration: '19:16',
     },
     {
         id: 'A-0005',
@@ -39,7 +39,7 @@ export const dataVideos = [
         nivel: 'MOTOMAMI',
         videoUrl: 'https://firebasestorage.googleapis.com/v0/b/proyecto-x-c87af.appspot.com/o/Alisson%2018%20a%C3%B1os.mp4?alt=media&token=38d7e1f6-ea5d-4831-a5df-05adc3727aa9',
         thumbnailUrl: '/assets/miniaturas/5.png',
-        duration: '16:24',
+        duration: '43:27',
     },
     {
         id: 'A-0006',
@@ -47,7 +47,7 @@ export const dataVideos = [
         nivel: 'MOTOMAMI',
         videoUrl: 'https://firebasestorage.googleapis.com/v0/b/proyecto-x-524f1.appspot.com/o/Casting%20de%20Alondra.mp4?alt=media&token=50fa0deb-890b-4d3f-9c67-fe2b4687cf1f',
         thumbnailUrl: '/assets/miniaturas/6.png',
-        duration: '16:24',
+        duration: '31:33',
     },
     {
         id: 'A-0007',
@@ -55,7 +55,7 @@ export const dataVideos = [
         nivel: 'MOTOMAMI',
         videoUrl: 'https://firebasestorage.googleapis.com/v0/b/proyecto-x-33269.appspot.com/o/Andrea.mp4?alt=media&token=b986cee7-c2b9-446a-bce4-2dafc4a62c3a',
         thumbnailUrl: '/assets/miniaturas/7.png',
-        duration: '16:24',
+        duration: '25:32',
     },
     {
         id: 'A-0008',
@@ -63,7 +63,7 @@ export const dataVideos = [
         nivel: 'MOTOMAMI',
         videoUrl: 'https://firebasestorage.googleapis.com/v0/b/proyecto-x-524f1.appspot.com/o/Casting%20de%20Aracely.mp4?alt=media&token=a7c7d0ce-5047-4758-ad49-774576f7c4d8',
         thumbnailUrl: '/assets/miniaturas/8.png',
-        duration: '16:24',
+        duration: '28:14',
     },
     {
         id: 'A-0009',
@@ -71,7 +71,7 @@ export const dataVideos = [
         nivel: 'MOTOMAMI',
         videoUrl: 'https://firebasestorage.googleapis.com/v0/b/proyecto-x-33269.appspot.com/o/Casting%20Fatima.mp4?alt=media&token=bf38d9d8-8901-484e-b2fc-8217018eb6e1',
         thumbnailUrl: '/assets/miniaturas/9.png',
-        duration: '16:24',
+        duration: '22:39',
     },
     {
         id: 'A-0010',
@@ -79,23 +79,23 @@ export const dataVideos = [
         nivel: 'MOTOMAMI',
         videoUrl: 'https://firebasestorage.googleapis.com/v0/b/proyecto-x-28cfd.appspot.com/o/Casting%20de%20Fernanda.MP4?alt=media&token=284003e5-6c64-47b6-995d-0eadf13ed63e',
         thumbnailUrl: '/assets/miniaturas/10.png',
-        duration: '16:24',
+        duration: '7:12',
     },
     {
         id: 'A-0011',
         description: 'Casting de Florencia 18 años',
         nivel: 'MOTOMAMI',
-        videoUrl: 'https://firebasestorage.googleapis.com/v0/b/proyecto-x-33226.appspot.com/o/Casting%20de%20Kiara.MP4?alt=media&token=92e6fad1-186d-4eef-a833-9c18ee23dd70',
+        videoUrl: 'https://firebasestorage.googleapis.com/v0/b/proyecto-x-33269.appspot.com/o/Florencia%2018%20a%C3%B1os.mp4?alt=media&token=c1c4ba7e-2abd-46d2-b71d-9fd3be8755dd',
         thumbnailUrl: '/assets/miniaturas/11.png',
-        duration: '16:24',
+        duration: '19:16',
     },
     {
         id: 'A-0012',
         description: 'Casting de Kiara 18 años',
         nivel: 'MOTOMAMI',
-        videoUrl: 'https://firebasestorage.googleapis.com/v0/b/proyecto-x-c87af.appspot.com/o/Alisson%2018%20a%C3%B1os.mp4?alt=media&token=38d7e1f6-ea5d-4831-a5df-05adc3727aa9',
+        videoUrl: 'https://firebasestorage.googleapis.com/v0/b/proyecto-x-33226.appspot.com/o/Casting%20de%20Kiara.MP4?alt=media&token=92e6fad1-186d-4eef-a833-9c18ee23dd70',
         thumbnailUrl: '/assets/miniaturas/12.png',
-        duration: '16:24',
+        duration: '14:08',
     },
     {
         id: 'A-0013',
@@ -103,7 +103,7 @@ export const dataVideos = [
         nivel: 'MOTOMAMI',
         videoUrl: 'https://firebasestorage.googleapis.com/v0/b/proyecto-x-33226.appspot.com/o/Casting%20de%20Katia.MP4?alt=media&token=60d2d985-52a8-4192-b8bd-a08e71a53d7c',
         thumbnailUrl: '/assets/miniaturas/13.png',
-        duration: '16:24',
+        duration: '18:35',
     },
     {
         id: 'A-0014',
@@ -111,7 +111,7 @@ export const dataVideos = [
         nivel: 'MOTOMAMI',
         videoUrl: 'https://firebasestorage.googleapis.com/v0/b/proyecto-x-33269.appspot.com/o/Laura%2021%20a%C3%B1os.mp4?alt=media&token=3d5a5bc1-4335-4a61-aa90-73dee5f969cc',
         thumbnailUrl: '/assets/miniaturas/14.png',
-        duration: '16:24',
+        duration: '15:09',
     },
     {
         id: 'A-0015',
@@ -119,7 +119,7 @@ export const dataVideos = [
         nivel: 'MOTOMAMI',
         videoUrl: 'https://firebasestorage.googleapis.com/v0/b/proyecto-x-33269.appspot.com/o/Casting%20de%20Mar%C3%ADa.mp4?alt=media&token=23b70a22-a1b3-4eb1-8029-5e25a393042e',
         thumbnailUrl: '/assets/miniaturas/15.png',
-        duration: '16:24',
+        duration: '16:47',
     },
     {
         id: 'A-0016',
@@ -135,7 +135,7 @@ export const dataVideos = [
         nivel: 'MOTOMAMI',
         videoUrl: 'https://firebasestorage.googleapis.com/v0/b/proyecto-x-524f1.appspot.com/o/Casting%20de%20Melissa.mp4?alt=media&token=79428046-2e2d-40e4-a092-10d78e4d8bb9',
         thumbnailUrl: '/assets/miniaturas/17.png',
-        duration: '16:24',
+        duration: '19:04',
     },
     {
         id: 'A-0018',
@@ -143,7 +143,7 @@ export const dataVideos = [
         nivel: 'MOTOMAMI',
         videoUrl: 'https://firebasestorage.googleapis.com/v0/b/proyecto-x-33226.appspot.com/o/Casting%20de%20Micaela.mp4?alt=media&token=e2cb989a-018a-4d4c-bc2a-d52e5c15657d',
         thumbnailUrl: '/assets/miniaturas/18.png',
-        duration: '16:24',
+        duration: '17:53',
     },
     {
         id: 'A-0019',
@@ -151,7 +151,7 @@ export const dataVideos = [
         nivel: 'MOTOMAMI',
         videoUrl: 'https://firebasestorage.googleapis.com/v0/b/proyecto-x-33269.appspot.com/o/Casting%20de%20M%C3%B3nica.mp4?alt=media&token=29759946-084b-45df-90cb-c0e602fc54d8',
         thumbnailUrl: '/assets/miniaturas/19.png',
-        duration: '16:24',
+        duration: '15:15',
     },
     {
         id: 'A-0020',
@@ -159,7 +159,7 @@ export const dataVideos = [
         nivel: 'MOTOMAMI',
         videoUrl: 'https://firebasestorage.googleapis.com/v0/b/proyecto-x-33269.appspot.com/o/Casting%20de%20Stefany.mp4?alt=media&token=9af1f802-6f56-485e-9e1f-4303557d408a',
         thumbnailUrl: '/assets/miniaturas/20.png',
-        duration: '16:24',
+        duration: '15:33',
     },
     {
         id: 'A-0021',
@@ -167,7 +167,7 @@ export const dataVideos = [
         nivel: 'MOTOMAMI',
         videoUrl: 'https://firebasestorage.googleapis.com/v0/b/proyecto-x-524f1.appspot.com/o/Casting%20de%20Fiorella.mp4?alt=media&token=999b55de-afda-4e12-a550-6cdf8abf60ab',
         thumbnailUrl: '/assets/miniaturas/21.png',
-        duration: '16:24',
+        duration: '16:40',
     },
     {
         id: 'A-0022',
@@ -175,7 +175,7 @@ export const dataVideos = [
         nivel: 'MOTOMAMI',
         videoUrl: 'https://firebasestorage.googleapis.com/v0/b/proyecto-x-524f1.appspot.com/o/Casting%20de%20Paola.mp4?alt=media&token=2a429b70-6d8e-4ba9-86c1-76759402137f',
         thumbnailUrl: '/assets/miniaturas/22.png',
-        duration: '16:24',
+        duration: '42:52',
     },
     {
         id: 'A-0023',
@@ -183,23 +183,23 @@ export const dataVideos = [
         nivel: 'MOTOMAMI',
         videoUrl: 'https://firebasestorage.googleapis.com/v0/b/proyecto-x-28cfd.appspot.com/o/Chibola%20desvirginada.mp4?alt=media&token=d1e07a92-2be9-49e8-8b48-cfeb492f908e',
         thumbnailUrl: '/assets/miniaturas/23.png',
-        duration: '16:24',
+        duration: '32:22',
     },
     {
         id: 'A-0024',
-        description: 'Colegiala con su novio mayor PI',
+        description: 'Colegiala con su novio mayor - Parte 1',
         nivel: 'MOTOMAMI',
         videoUrl: 'https://firebasestorage.googleapis.com/v0/b/proyecto-x-33269.appspot.com/o/Colegiala%20II.MP4?alt=media&token=ab4be1c7-8624-438c-b4c8-3ff2a6fd0785',
         thumbnailUrl: '/assets/miniaturas/24.png',
-        duration: '16:24',
+        duration: '10:56',
     },
     {
         id: 'A-0025',
-        description: 'Colegiala  con su novio mayor PII',
+        description: 'Colegiala  con su novio mayor - Parte 2',
         nivel: 'MOTOMAMI',
         videoUrl: 'https://firebasestorage.googleapis.com/v0/b/proyecto-x-c87af.appspot.com/o/Colegiala.MP4?alt=media&token=be84151f-a3c5-4b3b-92e1-aff9ac05dbcb',
         thumbnailUrl: '/assets/miniaturas/25.png',
-        duration: '16:24',
+        duration: '42:17',
     },
     {
         id: 'A-0026',
@@ -207,7 +207,7 @@ export const dataVideos = [
         nivel: 'MOTOMAMI',
         videoUrl: 'https://firebasestorage.googleapis.com/v0/b/proyecto-x-33269.appspot.com/o/Colegialas%20M%C3%A9xico.mp4?alt=media&token=e72673aa-f760-4754-b030-f40740b40645',
         thumbnailUrl: '/assets/miniaturas/26.png',
-        duration: '16:24',
+        duration: '24:47',
     },
     {
         id: 'A-0027',
@@ -215,7 +215,7 @@ export const dataVideos = [
         nivel: 'MOTOMAMI',
         videoUrl: 'https://firebasestorage.googleapis.com/v0/b/proyecto-x-524f1.appspot.com/o/Casting%20de%20Mayte.mp4?alt=media&token=4f227f00-a80d-4da4-9750-efb86fab3f6f',
         thumbnailUrl: '/assets/miniaturas/27.png',
-        duration: '16:24',
+        duration: '32:50',
     },
     {
         id: 'A-0028',
@@ -223,7 +223,7 @@ export const dataVideos = [
         nivel: 'MOTOMAMI',
         videoUrl: 'https://firebasestorage.googleapis.com/v0/b/proyecto-x-524f1.appspot.com/o/Miss%20Medellin%20Colombia.mp4?alt=media&token=cc6d75c0-df73-463a-9433-3ffd87a4d5d8',
         thumbnailUrl: '/assets/miniaturas/28.png',
-        duration: '16:24',
+        duration: '48:20',
     },
     {
         id: 'A-0029',
@@ -231,7 +231,7 @@ export const dataVideos = [
         nivel: 'MOTOMAMI',
         videoUrl: 'https://firebasestorage.googleapis.com/v0/b/proyecto-x-33269.appspot.com/o/Casero%20amateur.mp4?alt=media&token=e36eadf2-5607-4d93-9d39-e88eb28b3221',
         thumbnailUrl: '/assets/miniaturas/29.png',
-        duration: '16:24',
+        duration: '14:49',
     },
     {
         id: 'A-0030',
@@ -239,7 +239,7 @@ export const dataVideos = [
         nivel: 'MOTOMAMI',
         videoUrl: 'https://firebasestorage.googleapis.com/v0/b/proyecto-x-28cfd.appspot.com/o/Universitarios%20despues%20de%20clases.mp4?alt=media&token=9ed27270-ed1e-49e2-9815-b6f944cad722',
         thumbnailUrl: '/assets/miniaturas/30.png',
-        duration: '16:24',
+        duration: '4:33',
     },
     {
         id: 'A-0031',
@@ -247,6 +247,6 @@ export const dataVideos = [
         nivel: 'MOTOMAMI',
         videoUrl: 'https://firebasestorage.googleapis.com/v0/b/proyecto-x-28cfd.appspot.com/o/Chibola%20debutante%20full%20anuel.mp4?alt=media&token=c0f3fa23-6232-4906-800a-7c03e5be28ae',
         thumbnailUrl: '/assets/miniaturas/31.png',
-        duration: '16:24',
+        duration: '30:47',
     },
 ]

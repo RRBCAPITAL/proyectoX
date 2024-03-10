@@ -19,17 +19,17 @@ const Modal18 = ({setOpenModal18}) => {
                 </div>
 
                 <div className={quick.className}>
-                <p className='text-slate-600 text-center mx-8'><strong>Soy mayor de 18 años</strong> y acepto el visionado de textos, imágenes y videos explícitos destinados a un <strong>público adulto.</strong></p>
+                <p className='text-slate-600 text-center mx-8'><strong>Soy mayor de 18 años</strong> y acepto el visionado de textos e imágenes explícitos destinados a un <strong>público adulto.</strong></p>
                 </div>
 
-                {/* <div className="flex flex-col gap-0 items-center justify-center"> 
+                <div className="flex flex-col gap-0 items-center justify-center"> 
                 <p className='text-slate-400 font-light sm:mx-4 text-center'>He leído y acepto los</p>
                 <Link target="_blank" href={'https://drive.google.com/file/d/1H1T-qnLR4bL4JWBkqTff3pnf8qfCqUA_/view?usp=drive_link'} className={`text-sm text-orange-500 hover:text-orange-700 transition-all duration-300 ease-in-out`}>Términos y condiciones</Link>
-                </div> */}
+                </div>
 
                 <section className="w-full mt-4 flex flex-col gap-2 items-center justify-center">
-                    <button className='text-center bg-back-redd hover:bg-red-700 text-normal text-white transition-all duration-300 ease-linear py-1 font-bold rounded-full px-10' onClick={() => setOpenModal18(false)}>Aceptar</button>
-                    <Link href={'https://www.google.com.pe/?hl=es'} className='text-center transition-all duration-300 ease-linear text-normal text-red-500 font-bold rounded-lg'>Rechazar</Link>
+                    <button className='text-center bg-orange-500 hover:bg-orange-600 text-normal text-white transition-all duration-300 ease-linear py-1 font-bold rounded-full px-10' onClick={() => setOpenModal18(false)}>Aceptar</button>
+                    <Link href={'https://www.google.com.pe/?hl=es'} className='text-center transition-all duration-300 ease-linear text-normal text-orange-500 font-bold rounded-lg'>Rechazar</Link>
                 </section>
             </div> 
     </div>
@@ -37,4 +37,4 @@ const Modal18 = ({setOpenModal18}) => {
   )
 }
 
-export default Modal18
+export default Modal18;
