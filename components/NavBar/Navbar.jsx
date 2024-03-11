@@ -115,14 +115,14 @@ const [isLoadingAnuncio, setIsLoadingAnuncio] = useState(false);
         <div className=" lg:hidden"
         onClick={handleNavbarPhone}
         >
-            <div className="dark:text-[#fff] text-black text-[1.5rem] cursor-pointer flex-none">
+            <div className="text-[#fff] text-[1.5rem] cursor-pointer flex-none">
                 { show ? <MdOutlineClose /> : <FiMenu />}
             </div>
         </div>
     </motion.div>
     
     {
-        show ? <motion.div className="z-50 lg:hidden fixed left-[0rem] h-screen w-screen dark:bg-[#131313] bg-white dark:text-t-dark backdrop:blur-[15px]
+        show ? <motion.div className="z-50 lg:hidden fixed left-[0rem] h-screen w-screen bg-[#131313] backdrop:blur-[15px]
         overflow-hidden transition-nicetransition"
         variants={fadeIn("left", 0)} initial='hidden' animate="show" exit="hidden"
         >
@@ -130,7 +130,7 @@ const [isLoadingAnuncio, setIsLoadingAnuncio] = useState(false);
                 <ul className="flex flex-col text-2xl gap-0 p-[0.1rem] my-4 ">
                 {credencialsOk && credencialsOk[0]?.status ? <>
                   <h1 className="text-[24px] font-bold px-4 text-white leading-4">Hola {credencialsOk[0]?.user}</h1>
-                <h2 className="text-[16px] px-4 py-1 text-t-red dark:text-white">Suscripción Activa.</h2>
+                <h2 className="text-[16px] px-4 py-1 text-t-red">Suscripción Activa.</h2>
                 <div className="flex flex-col mx-auto gap-1 text-white mt-2 py-[0.1rem] px-[1rem] w-full">
             <button className="bg-back-red px-4 py-1 text-[16px] rounded-[10px] w-full" onClick={() => {
               setModalLoginM(true);
@@ -141,8 +141,8 @@ const [isLoadingAnuncio, setIsLoadingAnuncio] = useState(false);
             }} className="bg-back-redd px-4 py-1 rounded-[10px] text-[16px] w-full text-center">Suscribir otra cuenta</button>
            </div>
                 </>
-                : <><h1 className="text-[24px] font-bold px-4 text-[#2c2c2c] dark:text-white leading-4">Hola</h1>
-                  <h2 className="text-[16px] px-4  text-[#2c2c2c] dark:text-white">El mejor contenido premium espera por ti</h2>
+                : <><h1 className="text-[24px] font-bold px-4 text-white leading-4">Hola</h1>
+                  <h2 className="text-[16px] px-4  text-white">El mejor contenido premium te espera</h2>
                 <div className="flex mx-auto gap-4 text-white mt-2 py-[0.1rem] px-[1rem] w-full">
             <button className="bg-back-red px-4 py-1 text-[16px] rounded-[10px] w-full" onClick={() => {
               setModalLoginM(true);
