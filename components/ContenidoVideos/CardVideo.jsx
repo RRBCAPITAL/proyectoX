@@ -42,7 +42,7 @@ const CardVideo = ({
     <div>
       <motion.div
         style={{ position: "relative" }}
-        className={`mb-2 bg-dark-d hover:cursor-pointer w-fit sm:w-[343.59px] lg:w-[439.7952px] 2xl`}
+        className={`mb-2 hover:cursor-pointer w-fit sm:w-[343.59px] lg:w-[439.7952px] 2xl`}
         variants={changeIn(0)}
         initial="hidden"
         animate="show"
@@ -50,7 +50,6 @@ const CardVideo = ({
         onContextMenu={handleContextMenu}
       >
         {access ? <>
-          <h2 className="text-white px-2 py-1">{description}</h2>
           <div
           style={{
             position: "relative",
@@ -95,9 +94,9 @@ const CardVideo = ({
             ></video>
           )}
         </div>
+        <h2 className="text-white px-1 py-1">{description}</h2>
         </> : 
         <>
-        <h2 className="text-white px-2 py-1">{description}</h2>
         <div
         style={{
           position: "relative",
@@ -119,7 +118,7 @@ const CardVideo = ({
             <label htmlFor="" className="bg-black text-white py-[2px] px-2 text-[12px]">Premium</label>
             </div>
       </div>
-      
+      <h2 className="text-white px-1 py-1">{description}</h2>
         </>}
       </motion.div>
     </div>
