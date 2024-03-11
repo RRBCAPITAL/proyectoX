@@ -19,6 +19,8 @@ const ModalMetodosDePago = () => {
       <div className="mt-4">
         <div className="flex flex-col gap-2">
           <div className="flex gap-2 items-center justify-center">
+          
+          <div className="flex flex-col gap-2 ">
           <div className="flex gap-2 items-center justify-center">
             <img src="/assets/qr.jpg" alt="" className="qr" />
             <a href="/assets/qr.jpg" download>
@@ -31,6 +33,11 @@ const ModalMetodosDePago = () => {
               />
             </a>
           </div>
+          <div className="flex gap-1 sm:gap-2 border-2 px-2 rounded border-white text-white w-fit">
+              <h1 className="font-bold">Titular:</h1>
+              <h2>Atlas Entretenimiento</h2>
+            </div>
+          </div>
 
           <div className="flex flex-col gap-2 items-center justify-center">
           <div className="flex gap-2 text-white items-center justify-center">
@@ -41,10 +48,6 @@ const ModalMetodosDePago = () => {
           </div>
           </div>
           <div className="text-white flex flex-col gap-4">
-            <div className="flex gap-1 sm:gap-6">
-              <h1 className="font-bold">Titular:</h1>
-              <h2>Atlas Entretenimiento</h2>
-            </div>
             <div className="flex flex-col sm:flex-row gap-1 sm:gap-6">
               <h1 className="font-bold">Opcion 01</h1>
               <h2>Escanea el QR y realiza el pago de suscripcion</h2>

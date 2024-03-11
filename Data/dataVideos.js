@@ -249,4 +249,28 @@ export const dataVideos = [
         thumbnailUrl: '/assets/miniaturas/3.png',
         duration: '15:09',
     },
+    {
+        id: '32-0003',
+        description: 'Casting de Luciana',
+        nivel: 'MOTOMAMI',
+        videoUrl: 'https://firebasestorage.googleapis.com/v0/b/proyecto-x-28cfd.appspot.com/o/Casting%20de%20Luciana.mp4?alt=media&token=7157f7ae-8ca0-4451-a768-9ea13f3af7b2',
+        thumbnailUrl: '/assets/miniaturas/32.png',
+        duration: '30:57',
+    },
+    {
+        id: '33-0003',
+        description: 'Rapidin en el Uber',
+        nivel: 'MOTOMAMI',
+        videoUrl: 'https://firebasestorage.googleapis.com/v0/b/proyecto-x-28cfd.appspot.com/o/Rapid%C3%ADn%20en%20el%20Uber.mp4?alt=media&token=42add27c-b4fe-4111-9c3c-15985695cff9',
+        thumbnailUrl: '/assets/miniaturas/33.png',
+        duration: '15:09',
+    },
+    {
+        id: '34-0003',
+        description: 'Casting de Martina 18 años',
+        nivel: 'MOTOMAMI',
+        videoUrl: 'https://firebasestorage.googleapis.com/v0/b/proyecto-x-c87af.appspot.com/o/Casting%20Martina%2018%20a%C3%B1os.MP4?alt=media&token=3e12afb7-375c-4a03-8f73-fad8bcde0c38',
+        thumbnailUrl: '/assets/miniaturas/34.png',
+        duration: '18:55',
+    },
 ]
