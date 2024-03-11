@@ -41,7 +41,8 @@ const Footer = () => {
             <div className="flex flex-col gap-4">
                 <h4 className="text-xl font-extrabold">Contacto</h4>
                 <div className="flex flex-col gap-4">
-                    <p className="sm:text-[10px] lg:text-[16px]">rrbcapital24@gmail.com</p>
+                      <p className="sm:text-[10px] lg:text-[16px]">+51 989 752 208</p>
+                    {/* <p className="sm:text-[10px] lg:text-[16px]">rrbcapital24@gmail.com</p> */}
                     {/* <h3>Mensaje :</h3>
                     <input type="text" placeholder="Escribe tu correo" className="p-[0.8rem] max-w-[260px] rounded bg-slate-900 text-white outline-none"/>
                     <textarea
@@ -59,7 +60,7 @@ const Footer = () => {
                     {/* <li><Link target="_blank" href={'https://www.instagram.com/'} className="flex gap-1">
                         <h1>IG</h1>
                         <SiInstagram className="my-auto"/></Link></li> */}
-                    <li><Link target="_blank" href={'https://t.me/starmaxhub'} className="flex gap-1">
+                    <li><Link target="_blank" href={'https://t.me/+kRPGKNx2eNZlNmQ5'} className="flex gap-1">
                         <h1>Telegram</h1>
                         <SiTelegram className="my-auto"/></Link></li>
                     {/* <li><Link target="_blank" href={'https://www.tiktok.com/@papayahub_pe'} className="flex gap-1">

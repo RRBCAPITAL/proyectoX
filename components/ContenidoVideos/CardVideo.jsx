@@ -42,7 +42,7 @@ const CardVideo = ({
     <div>
       <motion.div
         style={{ position: "relative" }}
-        className={`mb-2 dark:bg-dark-d bg-white hover:cursor-pointer w-fit sm:w-[343.59px] lg:w-[439.7952px] 2xl`}
+        className={`mb-2 bg-dark-d hover:cursor-pointer w-fit sm:w-[343.59px] lg:w-[439.7952px] 2xl`}
         variants={changeIn(0)}
         initial="hidden"
         animate="show"

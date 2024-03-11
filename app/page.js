@@ -60,7 +60,7 @@ export default function Home() {
 
   return (
     <>
-      <main className="relative z-[900] dark:bg-black bg-white flex flex-col gap-2 items-center justify-center">
+      <main className="relative z-[900] bg-black flex flex-col gap-2 items-center justify-center">
         <Inicio />
       </main>
     </>

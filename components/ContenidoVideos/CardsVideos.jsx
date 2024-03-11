@@ -38,7 +38,7 @@ const CardsVideos = ({access}) => {
   };
 
   return (
-    <div className="flex flex-col lg:flex-row justify-center gap-4 max-w-[94vw] mx-auto min-h-screen lg:min-h-fit dark:bg-black">
+    <div className="flex flex-col lg:flex-row justify-center gap-4 max-w-[94vw] mx-auto min-h-screen lg:min-h-fit bg-black">
 
       <containertotal className="flex overflow-x-hidden mt-2 lg:mt-10 mb-8 mx-[12px]">
         <contain className={styles.contain}>

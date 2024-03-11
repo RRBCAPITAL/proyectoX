@@ -31,51 +31,7 @@ const Navbar = () => {
 
     const pathname = usePathname()
     const [ changeNabvarF, setChangeNabvarF ] = useState(false)
-    const { modalLogin, setModalLogin, credencialsOk, setCredencialsOk, modalLoginM, setModalLoginM, show, setShow, setModalSuscripcion} = useThemeContext();
-
-    changeNabvar(changeNabvarF)
-
-    const openModal = () => {
-        setModalIsOpen(true);
-      };
-      
-      const closeModal = () => {
-        setModalIsOpen(false);
-      };
-
-    const handleModal = () => {
-        setShowActive(true)
-        openModal()
-    }
-
-  if (typeof window !== 'undefined'){
-    // Recuperar el estado del tema desde el almacenamiento local si está disponible
-    const initialTheme = localStorage?.getItem('theme') || (
-        window?.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
-        );
-  
-  var [theme, setTheme] = useState(initialTheme);
-
-  // Cambiar el tema
-  var handleChangeTheme = () => {
-    const newTheme = theme === 'dark' ? 'dark' : 'light';
-    setTheme(newTheme);
-    // Guardar el nuevo tema en el almacenamiento local
-    localStorage?.setItem('theme', newTheme);
-    handleNavbarPhone()
-  };
-  
-
-  // Aplicar la clase 'dark' al cuerpo del documento según el estado del tema
-  useEffect(() => {
-    const bodyElement = document.querySelector('body');
-    if (theme === 'dark') {
-      bodyElement.classList.add('dark');
-    } else {
-      bodyElement.classList.remove('dark');
-    }
-  }, [theme]);
-}
+    const { modalLogin, setModalLogin, credencialsOk, setCredencialsOk, modalLoginM, setModalLoginM, show, setShow, setModalSuscripcion} = useThemeContext();  
 
 const [isLoadingAnuncio, setIsLoadingAnuncio] = useState(false);
 
@@ -95,7 +51,7 @@ const [isLoadingAnuncio, setIsLoadingAnuncio] = useState(false);
     return (
     <div className={quick.className}>
 
-<header className="z-[999] w-screen fixed  dark:bg-[#000000] bg-white py-0 px-[2rem]">
+<header className="z-[999] w-screen fixed  bg-black py-0 px-[2rem]">
     <motion.div className="h-[60px] w-[94%] mx-auto flex items-center justify-between"
      variants={fadeIn("left", 0)} initial='hidden' animate="show" exit="hidden"
     >

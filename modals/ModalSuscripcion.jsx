@@ -18,8 +18,8 @@ const ModalSuscripcion = () => {
       <div className="relative z-[1001] w-[70%] sm:w-[400px] lg:w-[60vw] h-[80vh] lg:h-fit overflow-y-auto bg-black px-6 py-6 mx-4 shadow-2xl flex flex-col items-center justify-center">
       <img src="/assets/logod.png" alt="" className="px-0 w-[90%] h-[90%] lg:w-[250px] lg:h-fit pt-2 mx-auto"/>
       <div className="rounded-[10px] p-1 bg-back-red mx-auto w-[270px] flex items-center justify-center mt-2 mb-2">
-        <button onClick={() => setSolesDolares(false)} className={`rounded-[10px] ${!solesDolares ? 'bg-back-red text-white' : 'bg-white text-black'}  px-6 py-1 cursor-pointer`}>Soles ( S/ )</button>
-        <button onClick={() => setSolesDolares(true)} className={`rounded-[10px] ${solesDolares ? 'bg-back-red text-white' : 'bg-white text-black'}  px-6 py-1 cursor-pointer`}>Dolares ( $ )</button>
+        <button onClick={() => setSolesDolares(false)} className={`rounded-[10px] ${solesDolares ? 'bg-back-red text-white' : 'bg-white text-black'}  px-6 py-1 cursor-pointer`}>Soles ( S/ )</button>
+        <button onClick={() => setSolesDolares(true)} className={`rounded-[10px] ${!solesDolares ? 'bg-back-red text-white' : 'bg-white text-black'}  px-6 py-1 cursor-pointer`}>Dolares ( $ )</button>
       </div>
 
       <containeniveles className="grid sm:grid-cols-2 lg:grid-cols-3 mx-0 lg:mx-6 items-center gap-2 lg:gap-2 justify-center mt-2">
@@ -31,7 +31,7 @@ const ModalSuscripcion = () => {
             </div>
             <div className="text-white bg-back-red font-bold w-full text-center py-2 px-2 sm:py-8 sm:px-4">
               <h1 className="font-bold text-4xl">{solesDolares ? '$ 9.00' : 'S/ 29.00'}</h1>
-              <h2 className="font-light text-[8px] lg:text-sm">A partir del segundo mes a <strong>{solesDolares ? '$ 6.00' : 'S/ 19.00'}</strong></h2>
+              <h2 className="font-light text-[8px] lg:text-sm">A partir del segundo mes a <strong style={{fontWeight: 'bold', fontSize: '20px'}}>{solesDolares ? '$ 6.00' : 'S/ 19.00'}</strong></h2>
             </div> 
           </div>
 
