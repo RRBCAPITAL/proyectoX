@@ -30,7 +30,7 @@ const ModalSuscripcion = () => {
               <h2 className="font-light">( cada mes )</h2>
             </div>
             <div className="text-white bg-back-red font-bold w-full text-center py-2 px-2 sm:py-8 sm:px-4">
-              <h1 className="font-bold text-4xl">{solesDolares ? '$ 9.00' : 'S/ 29.00'}</h1>
+              <h1 className="font-bold text-4xl">{solesDolares ? '$ 9.00' : 'S/ 24.00'}</h1>
               <h2 className="font-light text-[8px] lg:text-sm">A partir del segundo mes a <strong style={{fontWeight: 'bold', fontSize: '20px'}}>{solesDolares ? '$ 6.00' : 'S/ 19.00'}</strong></h2>
             </div> 
           </div>

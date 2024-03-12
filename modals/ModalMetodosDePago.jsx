@@ -45,6 +45,7 @@ const ModalMetodosDePago = () => {
             <img src="/assets/plin.png" alt="" className="yapeplin rounded-lg"/>
           </div>
           <Link href={'https://paypal.me/AtlasEntretenimiento?country.x=PE&locale.x=es_XC'} target="_blank"><img src="/assets/paypal.png" alt="" className="paypal bg-white px-2 py-1 w-full"/></Link>
+            
           </div>
           </div>
           <div className="text-white flex flex-col gap-4">
