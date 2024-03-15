@@ -67,13 +67,13 @@ const ModalMetodosDePago = () => {
         </div>
 
         <h2 className="mensaje font-bold text-white leading-5 mt-4 mx-auto">
-          Una vez realizado el pago, envía una captura por WhatsApp o Telegram
+          Una vez realizado el pago, envía una captura a Telegram
           para que podamos enviarte un nombre de usuario y contraseña.
         </h2>
 
         <div className="flex items-center justify-center gap-2 text-white w-full mt-2">
-          <a target="_blank" href={`https://api.whatsapp.com/send?phone=+51989752208&text=Hola,%20envío%20la%20captura%20del%20pago%20de%20mi%20suscripción,%20espero%20mi%20usuario%20y%20contraseña.`} className="px-6 py-2 font-bold rounded-lg" style={{backgroundColor: 'rgb(0, 216, 18)'}}>WhatsApp</a>
-          <Link href={'https://t.me/starmaxhub'} target="_blank" className="bg-back-red font-bold px-6 py-2 rounded-lg">Telegram</Link>
+          {/* <a target="_blank" href={`https://api.whatsapp.com/send?phone=+51989752208&text=Hola,%20envío%20la%20captura%20del%20pago%20de%20mi%20suscripción,%20espero%20mi%20usuario%20y%20contraseña.`} className="px-6 py-2 font-bold rounded-lg" style={{backgroundColor: 'rgb(0, 216, 18)'}}>WhatsApp</a> */}
+          <Link href={'https://t.me/checorb11'} target="_blank" className="bg-back-red font-bold px-6 py-2 rounded-lg">Telegram</Link>
         </div>
       </div>
       <button
