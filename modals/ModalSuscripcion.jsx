@@ -105,7 +105,7 @@ const ModalSuscripcion = () => {
           X
         </button>
 
-        <div className="absolute top-20 right-4">
+        <div className="sm:hidden absolute top-20 right-4">
         <div className="flex flex-col gap-20">
           <li>
             <Link
