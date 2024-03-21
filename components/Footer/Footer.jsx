@@ -42,12 +42,12 @@ const Footer = () => {
                 <h4 className="text-xl font-extrabold">Redes sociales</h4>
                 <div className="flex flex-col gap-4">
                 <ul className="socials flex gap-2">
-                    {/* <li><Link target="_blank" href={'https://www.instagram.com/'} className="flex gap-1">
-                        <h1>IG</h1>
-                        <SiInstagram className="my-auto"/></Link></li> */}
                     <li><Link target="_blank" href={'https://t.me/+kRPGKNx2eNZlNmQ5'} className="flex gap-1">
                         <h1>Telegram</h1>
                         <SiTelegram className="my-auto"/></Link></li>
+                        <li><Link target="_blank" href={'https://www.instagram.com/xdebutantes?igsh=MWtrZDQ1dGVsNDQ2aA=='} className="flex gap-1">
+                        <h1>Instagram</h1>
+                        <SiInstagram className="my-auto"/></Link></li>
                     {/* <li><Link target="_blank" href={'https://www.tiktok.com/@papayahub_pe'} className="flex gap-1">
                         <h1>Tik tok</h1>
                         <SiTiktok className="my-auto"/></Link></li>           */}
